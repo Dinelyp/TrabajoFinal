@@ -1,0 +1,27 @@
+.container-fluid-contacto{
+    background-image: url(img/shakira\ banner.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+
+}
+
+
+.card-contacto{
+    background: #fff;
+    padding: 50px;
+    border-radius: 25px;
+    width: 65%;
+    box-shadow: 5px 5px 5px black;
+    margin: 40px auto;
+}
+
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
