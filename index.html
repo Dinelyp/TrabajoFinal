@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakira </title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+
+    <!-- Mi css -->
+    <link href="./css/estilo_presentacion.css" rel="stylesheet" type="text/css">
+    
+    <!--  Mi js -->
+    <script src="js/01.js"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+    <!--  Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--  Carrusel -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<!--    Inicio barra de navegacion-->
+   <header id="" class="bg-dark">
+      <div class="container_main">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/shakira-logo.png" alt="Shakira"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-link text-white" href="#">Inicio</a>
+                      <a class="nav-link text-white" href="#">Familia</a>
+                      <a class="nav-link text-white" href="#">Amigos</a>
+                      <a class="nav-link text-white" href="#">Carrera</a>
+                      <a class="nav-link text-white" href="#">Contacto</a>
+                  </div>
+                </div>
+              </div>
+            </nav>   
+        </div>
+    </header>
+
+
+<!--Aquí va la Presentación-->
+
+      <div class="fotoprincipal">
+              <h1>LA HISTORIA DE SHAKIRA</h1>
+              <h6>CANTANTE - EMPRESARIA</h6>
+      </div>
+
+
+      <div class="container acerca_de">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <img src="img/biografia.jpg" class="foto_briografia">
+          </div>
+
+          <div class="col-sm-6">
+            <div class="fondo_rectangular">Ícono en la industria</div>
+            <h1>Acerca de Shakira</h1>
+            <h4>Relato de superación</h4>
+            <p>Shakira Isabel Mebarak Ripoll (Barranquilla, Colombia; 2 de febrero de 1977), conocida simplemente como Shakira, es una cantautora, bailarina, actriz y empresaria colombiana.</p>
+            
+            <button class="btn_shakira" onclick="openPopup()">Contactar</button>
+            <div class="popup" id="popup">
+                <img src="img/tick.png">
+                <h2>¡Gracias por mostrar interés!</h2>
+                <p>Nos estaremos contactando contigo, gracias.</p>
+                <button type="button" onclick="closePopup()">¡Listo!</button>
+            </div>
+
+
+
+          </div>
+        </div>
+       </div>
+
+
+<!--Aquí va la Premiación-->
+
+    <div class="premiacion">
+      <div class="row conjunto_premios">
+        <div class="col-sm-3">
+          <img src="img/grammy.png" class="premios">
+          <h3 class="nombre_premio">Grammy</h3> 
+          <h4 class="fecha_premio">2014</h4> 
+          <p>Shakira gano el premio nominada a «Mejor líder de Colombia, en el año 2014</p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="img/njr.png" class="premios">
+          <h3 class="nombre_premio">NJR</h3> 
+          <h4 class="fecha_premio">2005</h4> 
+          <p>Un proyecto que premia los personajes más influyentes del país.</p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="img/echo.png" class="premios">
+          <h3 class="nombre_premio">Echo</h3> 
+          <h4 class="fecha_premio">2011</h4> 
+          <p>Trabajo filantrópico que está haciendo en el mundo con su fundación Pies Descalzos</p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="img/vma.png" class="premios">
+          <h3 class="nombre_premio">Vma</h3> 
+          <h4 class="fecha_premio">2021</h4> 
+          <p>Vevo reconoce a todos los vídeos musicales que alcanzan la cifra de 100 millones de reproducciones </p>
+        </div>
+      </div>
+    </div>
+
+
+
+<!--Aquí va la Frase-->
+
+<div class="container frase">
+  <div class="row align-items-center">
+
+      <div class="col-sm-6">
+        <div class="quote">“<br>La creatividad es una caja de sorpresas y nunca sabes con qué te vas a encontrar dentro de tí mismo.</div>
+      </div>
+
+      <div class="col-sm-6">
+        <img src="img/shakira.jpg " class="foto_frase">
+      </div>
+
+</div>
+</div>
+
+
+    <!--Aquí va lo que opinan sus amigos -->
+
+    <div class="amigos">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-center m-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Carrusel -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <div class="img-box"><img src="img/juan.jpg" alt=""></div>
+                  <h6 class="nombre_amigo">Juan Luis Guerra</h6>
+                  <p class="opinion">Es una persona que se preocupa por mí como artista, como persona, como ser humano.</p>  
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box"><img src="img/rosi.jpeg" alt=""></div>
+                  <h6 class="nombre_amigo">La Rosalía</h6>
+                  <p class="opinion">Desde pequeña, amo a esta mujer. Es una referencia. Así que voy a guardar esto con mucho amor</p>  
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box"><img src="img/bad.jpg" alt=""></div>
+                  <h6 class="nombre_amigo">Bad Bunny</h6>
+                  <p class="opinion">Es una súper estrella, una reina, una diva, humilde y genuina. Una cosa no tiene que ver con la otra.</p>  
+                </div>
+              </div>
+
+              <!-- Carousel Controls -->
+              <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+      <!--    Footer -->
+    <footer class="fixed-botton">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="copyright-box text-center">
+                      <p class="copyright">© Copyright <strong>Shakira</strong>. All Rights Reserved</p>
+                      <div class="credits">
+                          Designed by <a href="https://github.com/Dinelyp/TrabajoFinal.git" target="_blank" >Luisa, Yhanella, Dinely, Estrellita</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>&lt;
+
+<!--    Fin del Footer -->
+
+
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
