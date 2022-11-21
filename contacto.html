@@ -12,6 +12,8 @@
     <!--Estilos-->
     <link rel="stylesheet" href="css/estilocontacto.css">
     <link rel="stylesheet" href="css/general.css">
+    <!--Estilos-->
+
     <title>Shakira</title>
 </head>
 
@@ -41,81 +43,77 @@
         </div> 
             
     </header>
+    <!--Inicio de Contacto-->
     <div class="container-fluid-contacto">
         <div class="card-contacto">
             <div class="row">
-                <div class="row cards">
-                    <div class="col">
-                        <div class="card-login">
-                            <h2 class="contacto-titulo">Contacto</h2>
-                            <form action="#">
-                                <div class="mb-4">
-                                    <label for="correo" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Luis Perez"
-                                        required>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="nombre" class="form-label">Correo</label>
-                                    <input type="email" class="form-control" name="correo"
-                                        placeholder="example@correo.com" required>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="nombre" class="form-label">Asunto</label>
-                                    <input type="text" class="form-control" name="asunto" placeholder="Importante"
-                                        required>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="nombre" class="form-label">Mensaje</label>
-                                    <textarea name="" id="" cols="30" rows="10"
-                                        placeholder="Escribe aquí tu mensaje"></textarea>
-                                </div>
+                <!--Contacto-->
+                <div class="col">
+                    <div class="card-login">
+                        <h2 class="contacto-titulo">Contacto</h2>
+                        <form action="/" id="form">
+                            <div class="input-control">
+                                <label for="username">Nombre</label>
+                                <input id="username" name="username" type="text" placeholder="Luis Perez">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control">
+                                <label for="email">Correo</label>
+                                <input id="email" name="email" type="text" placeholder="ejemplo@correo.com">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control">
+                                <label for="asunto">Asunto</label>
+                                <input id="asunto"name="asunto" type="text" placeholder="Importante">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui tu mensaje"></textarea>
+                                <div class="error"></div>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                        <br>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/google-logo.png" /></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/linkedin-2--v1.png" /></a>
 
-                                <div class="mb-4">
-                                    <button class="btn btn-primary btn-lg">Enviar</button>
-                                </div>
-                                <div class="mb-4">
-                                    <a href="#"><img src="https://img.icons8.com/color/48/null/google-logo.png" /></a>
-                                    <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
-                                    <a href="#"><img
-                                            src="https://img.icons8.com/color/48/null/linkedin-2--v1.png" /></a>
-                                </div>
-
-                            </form>
-                        </div>
+                        <script src="js/scriptcontacto.js"></script>
                     </div>
-                    <div class="col">
-                        <div class="card-redes">
-                            <h2 class="contacto-titulo">Redes Sociales</h2>
-                            <div class="mb-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque magni
-                                consequatur neque autem blanditiis sed animi eaque explicabo alias. Vel, rem? Doloremque
-                                excepturi modi quaerat illum! Officiis, omnis nobis!
-                                <br><br>
-                            </div>
-
-                            <div class="mb-4">
-                                <img src="https://img.icons8.com/fluency/48/null/windows-mobile.png" alt=""> 557-0089-23
-                                <br>
-                                <img src="https://img.icons8.com/color/48/null/filled-message.png" alt="">
-                                shakira@gmail.com
-                                <br>
-                            </div>
-                            <div class="mb-4">
-                                <a href="https://www.instagram.com/shakira/?hl=es"><img
-                                        src="https://img.icons8.com/color/48/null/instagram-new--v1.png" /></a>
-                                <a href="https://www.facebook.com/shakira"><img
-                                        src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
-                                <a href="https://twitter.com/shakira"><img
-                                        src="https://img.icons8.com/color/48/null/twitter--v1.png" /></a>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
+                <!--Redes Sociales-->
+                <div class="col">
+                    <div class="card-redes">
+                        <h2 class="contacto-titulo">Redes Sociales</h2>
+                        <div class="mb-4">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est veritatis odit explicabo ab nemo natus ea excepturi fugit laborum. Ab, quaerat voluptas animi corporis voluptate quas accusantium dicta iure ratione.
+                            <br><br>
+                        </div>
+
+                        <div class="mb-4">
+                            <img src="https://img.icons8.com/fluency/48/null/windows-mobile.png" alt=""> 557-0089-23
+                            <br>
+                            <img src="https://img.icons8.com/color/48/null/filled-message.png" alt="">
+                            shakira@gmail.com
+                            <br>
+                        </div>
+                        <div class="mb-4">
+                            <a href="https://www.instagram.com/shakira/?hl=es"><img
+                                    src="https://img.icons8.com/color/48/null/instagram-new--v1.png" /></a>
+                            <a href="https://www.facebook.com/shakira"><img
+                                    src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
+                            <a href="https://twitter.com/shakira"><img
+                                    src="https://img.icons8.com/color/48/null/twitter--v1.png" /></a>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+    <!--Fin de Contacto-->
     <footer class="fixed-botton">
         <div class="container">
             <div class="row">
