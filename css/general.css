@@ -1,4 +1,5 @@
 
+
 *{
   font-family: 'Montserrat', sans-serif;
 }
@@ -57,7 +58,6 @@ footer .credits a {
   color:black !important;
   font-weight: 500;
 }
-=======
 .nav-link{
     position: relative;
 }
@@ -85,9 +85,15 @@ footer .credits a {
 
 footer {
     text-align: center;
+
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+
     color: #000f;
     padding: 25px 0;
     background-color: gold;
+
   }
   
 footer .copyright {
@@ -99,6 +105,11 @@ footer .credits {
   }
   
 footer .credits a {
+
+    color:#fff !important;
+  }
+
     color:#000 !important;
   }
+
 
